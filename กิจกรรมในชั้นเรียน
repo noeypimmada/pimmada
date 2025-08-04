@@ -1,0 +1,6 @@
+def sum_of_squares(lst):
+    return sum(x**2 for x in lst)
+
+lst = [50, 500, 5000]
+result = sum_of_squares(lst)
+print(result)
